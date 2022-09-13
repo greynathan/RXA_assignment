@@ -35,5 +35,5 @@ def prediction(df):
 #print('Explained Variance: '+str(explained_variance_score(df_test_out, pred)))
 #print('Mean Absolute Error: ' + str(mean_absolute_error(df_test_out, pred)))
 
-# Linear Regression Results- .955
-# Mean Absolute Error- 3397.18
+# Explained Variance - .955
+# Mean Absolute Error - 3397.18
