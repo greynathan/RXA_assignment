@@ -10,15 +10,15 @@ The goal of this exercise was to take a csv of median household incomes by zip c
 
 4. The fourth and final thing I did was create a Dashboard for exploring the data. The first tab was created to show the median household income color coded and plotted at each zip code for users to see income disparencies across the United States and throughout time. This plotted map also included the projections for 2020. The second tab includes a paginated table showing the zip codes and their median household incomes from 2011-2019 for users to look up specific zip codes easier. The third and final tab included a calculator that uses the machine learning model to predict the next years income, based on the input data. 
 
-The technology and libraries used in creation of this project was as followed:
+#The technology and libraries used in creation of this project was as followed:
 
-* Python as the main programming language
-* Pandas for data manipulation 
-* Plotly for visualization 
-* Dash to create the web interface 
-* Sklearn for machine learning 
-* Docker to containerize my project 
-* Bash scripts to make building and running the project simplier 
+* Python as the main programming language- great for data manipulation, has numerous useful libraries and is the language I am most familar
+* Pandas for data manipulation- makes data cleaning and analysis much easier 
+* Plotly for visualization- Works seamlessly with dash and creates beautiful plots and visualizations
+* Dash to create the web interface- works seamlessly with plotly, allows for python based web development, runs using lightweight flask based backend
+* Sklearn for machine learning- efficent machine learning and data analysis tools
+* Docker to containerize my project- simple containerization for easy deployment
+* Bash scripts to make building and running the project simplier- further simplifies docker into a few commands (great for none docker users)
 
 # To Build and Run my project
 # With Docker 
