@@ -1,0 +1,5 @@
+sklearn
+pandas
+dash
+pyarrow
+fastparquet
